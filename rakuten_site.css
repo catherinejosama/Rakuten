@@ -1,0 +1,81 @@
+/* Reset CSS*/
+html{color:#000;background:#FFF}
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,p,blockquote{margin:0;padding:0}
+table{border-collapse:collapse;border-spacing:0}
+fieldset,img{border:0}
+address,caption,cite,code,dfn,em,strong,th,var{font-style:normal;font-weight:normal}
+ol,ul{list-style:none}
+caption,th{text-align:left}
+h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal}
+q:before,q:after{content:''}
+abbr,acronym{border:0;font-variant:normal}
+sup{vertical-align:text-top}
+sub{vertical-align:text-bottom}
+input,textarea,select{font-family:inherit;font-size:inherit;font-weight:inherit;*font-size:100%}
+legend{color:#000}
+
+
+
+/* Side Navigation Styles*/
+#sideNav {
+ width:186px;
+ background-color:#FFF;
+}
+
+#sideNav_ranking {
+	height: 292px;
+	padding: 8px;
+	background-color: #eaeaea;
+}
+
+#sideNav_ranking .sideNav_ranking_text {
+	font-size: 12px;
+	font-weight: 900;
+	font-family: 'YuMincho', serif;
+	display: inline-block;
+	margin: 12px auto 20px 8px;
+}
+
+.sideNav_section ul {
+	margin-top: 15px;
+}
+
+.sideNav_subhead {
+	background-color: #FFF !important;
+}
+
+.sideNav_subhead .sideNav_subheadText {
+	font-size: 20px;
+	font-weight: 600;
+	font-family: 'YuMincho', serif;
+	display: inline-block;
+	margin: 8px auto 13px 8px;
+}
+
+.sideNav_section ul li {
+	height: 40px;
+	margin: 2px 0px 2px 0px;
+	background-color: #eaeaea;
+	vertical-align: middle;
+	/* display: block; */
+}
+
+.sideNav_section ul li a {
+	text-decoration: none;
+	color: #222;
+	font-size: 14px;
+	font-family: sans-serif;
+}
+
+.sideNav_section ul li a:hover {
+	font-weight: 600;
+}
+
+.sideNav_section ul li .sideNav_item {
+	display: inline-block;
+	vertical-align: top;
+	margin: 11px auto auto 8px;
+}
+
+
+/**/

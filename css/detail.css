@@ -1,0 +1,29 @@
+/* Top Area */
+.detail_osusume {
+	text-align: center;
+	margin: 32px auto;
+}
+
+p.detail_main {
+	padding-bottom: 27px;
+	font-size: 24px
+}
+
+.detail_banner p {
+	margin: 32px auto;
+	font-size: 10px;
+}
+
+.item_description table tr td:first-child {
+	padding-right: 20px;
+}
+
+.item_description_images img {
+	display: block;
+}
+
+.item_description_text h5 {
+	margin-bottom: 7px;
+	font-size: 20px;
+	font-weight: 600;
+}
